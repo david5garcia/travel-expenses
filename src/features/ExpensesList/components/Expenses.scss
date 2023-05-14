@@ -1,0 +1,15 @@
+div.expenses {
+    display: grid;
+    width: 90%;
+    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 5px;
+}
+
+.expenses > div {
+    background-color: grey;
+}
+
+.expenses > div > p{
+    //width: 100px;
+}
